@@ -2,6 +2,10 @@ document.getElementById("carta").addEventListener("click", function() {
     document.getElementById("mensaje").style.display = "flex";
     iniciarLluvia();
     mostrarTextoArriba();
+
+    // 🔊 Reproducir la música
+    const musica = document.getElementById("musica");
+    musica.play();
 });
 
 function iniciarLluvia() {
